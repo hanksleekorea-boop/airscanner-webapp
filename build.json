@@ -1,8 +1,8 @@
 {
   "app": "AirScanner",
-  "version": "0.2.0",
-  "buildId": "airscanner-0.2.0-r4-ux-complete",
-  "sourceRevision": "ac1403e5c9fdb5c30b6f73a879d8a91f47cd4ae4",
+  "version": "0.2.1",
+  "buildId": "airscanner-0.2.1-r5-ranking-policy",
+  "sourceRevision": "0dce1c3402a47e95836e74329b582a42eb4064c6",
   "mode": "public-static-demo",
   "liveProvider": false
 }
