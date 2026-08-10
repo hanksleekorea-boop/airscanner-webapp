@@ -1,8 +1,8 @@
 {
   "app": "AirScanner",
   "version": "0.3.1",
-  "buildId": "airscanner-0.3.1-r11-touch-layout",
-  "sourceRevision": "f7416bf28d9e0754582679fe43f2b4b01ff517a5",
+  "buildId": "airscanner-0.3.1-r12-touch-form-layout",
+  "sourceRevision": "d56723c9b8c1a88adb9f9cd63006bf1506ab421d",
   "mode": "public-static-demo",
   "liveProvider": false
 }
