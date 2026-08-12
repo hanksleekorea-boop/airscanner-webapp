@@ -1,8 +1,8 @@
 {
   "app": "AirScanner",
   "version": "0.3.1",
-  "buildId": "airscanner-0.3.1-r13-touch-overflow-fix",
-  "sourceRevision": "e4ecfaf43389b9177f01194b48b558ff0a81ffac",
+  "buildId": "airscanner-0.3.1-r14-pc-operations",
+  "sourceRevision": "7facd11ae71b4990d22b129712bff06d74d3787e",
   "mode": "public-static-demo",
   "liveProvider": false
 }
