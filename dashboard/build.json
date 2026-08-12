@@ -1,8 +1,8 @@
 {
-  "app": "AirScanner",
+  "app": "AirScanner development progress dashboard",
   "version": "0.3.1",
   "buildId": "airscanner-0.3.1-r15-pc-dashboard-route",
   "sourceRevision": "2cd04ab5a85fd29936b26a07f84a24e089e5396b",
-  "mode": "public-static-demo",
+  "mode": "public-static-development-dashboard",
   "liveProvider": false
 }
