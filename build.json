@@ -1,8 +1,8 @@
 {
   "app": "AirScanner",
   "version": "0.3.1",
-  "buildId": "airscanner-0.3.1-r17-mobile-cancel-control",
-  "sourceRevision": "0186e3ef81990182c2e3819b374403ef47180013",
+  "buildId": "airscanner-0.3.1-r18-security-audit",
+  "sourceRevision": "edcc1d2e7f2be561ad6b916371f817df640aeef8",
   "mode": "public-static-demo",
   "liveProvider": false
 }
