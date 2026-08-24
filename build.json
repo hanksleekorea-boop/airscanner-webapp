@@ -1,8 +1,10 @@
 {
   "app": "AirScanner",
-  "version": "0.3.1",
-  "buildId": "airscanner-0.3.1-r19-lint-clean",
-  "sourceRevision": "cd375692301c781b93526f91f2863a1be3939f00",
+  "version": "0.4.0",
+  "buildId": "airscanner-0.4.0-r20-commercial-readiness",
+  "sourceRevision": "a63f4e4005f7a5e3d99c076975008969964c05df",
   "mode": "public-static-demo",
-  "liveProvider": false
+  "liveProvider": false,
+  "verifiedReadiness": { "development": 99, "mobile": 99, "pc": 99, "commercial": 99 },
+  "remainingExternalPercent": 1
 }
