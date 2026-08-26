@@ -1,1 +1,5 @@
-{"app":"AirScanner","remainingExternalPercent":1,"buildId":"airscanner-0.4.0-r21-release-readiness","mode":"public-static-demo","liveProvider":false,"verifiedReadiness":{"mobile":99,"commercial":99,"development":99,"pc":99},"sourceRevision":"55d28aa4ea9a615828114cf19c4da53ed28306a7","version":"0.4.0"}
+{
+  "buildId": "airscanner-0.4.0-r22-affiliate-readiness",
+  "sourceRevision": "264dd2cebf727192b0ab831c8781f2392ae699f0",
+  "builtAt": "2026-08-26T09:55:26.255Z"
+}

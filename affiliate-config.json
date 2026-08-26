@@ -1,0 +1,12 @@
+{
+  "version": "airscanner-affiliate-config/v1",
+  "supportEmail": null,
+  "travelpayouts": {
+    "enabled": false,
+    "scriptUrl": null
+  },
+  "trip": {
+    "enabled": false,
+    "url": null
+  }
+}
