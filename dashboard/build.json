@@ -1,10 +1,1 @@
-{
-  "app": "AirScanner development progress dashboard",
-  "version": "0.4.0",
-  "buildId": "airscanner-0.4.0-r20-commercial-readiness-dashboard",
-  "sourceRevision": "a63f4e4005f7a5e3d99c076975008969964c05df",
-  "mode": "public-static-development-dashboard",
-  "liveProvider": false,
-  "verifiedReadiness": { "development": 99, "mobile": 99, "pc": 99, "commercial": 99 },
-  "remainingExternalPercent": 1
-}
+{"app":"AirScanner development progress dashboard","remainingExternalPercent":1,"buildId":"airscanner-0.4.0-r21-release-readiness-dashboard","mode":"public-static-development-dashboard","liveProvider":false,"verifiedReadiness":{"mobile":99,"commercial":99,"development":99,"pc":99},"sourceRevision":"55d28aa4ea9a615828114cf19c4da53ed28306a7","version":"0.4.0"}
