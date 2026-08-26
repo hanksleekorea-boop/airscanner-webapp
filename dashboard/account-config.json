@@ -1,0 +1,6 @@
+{
+  "version": "airscanner-account-config/v1",
+  "apiBaseUrl": null,
+  "google": { "enabled": false },
+  "apple": { "enabled": false }
+}
