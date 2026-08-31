@@ -1,2 +1,1 @@
-# AirScanner AdSense is fail-closed until an approved publisher ID is configured.
-# Activation writes: google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+google.com, pub-2476023536699107, DIRECT, f08c47fec0942fa0

@@ -1,4 +1,4 @@
-const CACHE_NAME = "airscanner-pwa-r27";
+const CACHE_NAME = "airscanner-pwa-r28";
 const CACHE_PREFIX = "airscanner-pwa-";
 
 function canCache(request, url) {

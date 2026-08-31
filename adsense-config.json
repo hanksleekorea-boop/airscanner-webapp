@@ -1,15 +1,33 @@
 {
   "version": "airscanner-adsense-config/v1",
-  "enabled": false,
-  "publisherId": null,
+  "enabled": true,
+  "publisherId": "ca-pub-2476023536699107",
   "siteApproved": false,
-  "reviewCodeEnabled": false,
+  "reviewCodeEnabled": true,
   "certifiedCmpReady": false,
-  "autoAds": { "enabled": false },
+  "autoAds": {
+    "enabled": false
+  },
   "units": {
-    "leaderboard": { "enabled": false, "slot": null, "format": "display" },
-    "content": { "enabled": false, "slot": null, "format": "display" },
-    "multiplex": { "enabled": false, "slot": null, "format": "multiplex" },
-    "footer": { "enabled": false, "slot": null, "format": "display" }
+    "leaderboard": {
+      "enabled": false,
+      "slot": null,
+      "format": "display"
+    },
+    "content": {
+      "enabled": false,
+      "slot": null,
+      "format": "display"
+    },
+    "multiplex": {
+      "enabled": false,
+      "slot": null,
+      "format": "multiplex"
+    },
+    "footer": {
+      "enabled": false,
+      "slot": null,
+      "format": "display"
+    }
   }
 }
