@@ -2,7 +2,7 @@
   "app": "AirScanner",
   "version": "0.7.0",
   "buildId": "airscanner-0.7.0-r29-free-stage2-complete",
-  "sourceRevision": "c17e7451972647e0b2bb4cf5ddc9b927602718cd",
+  "sourceRevision": "ff2afb9e58f1b34f5de307b1387cb8893fba5bfa",
   "mode": "public-free-service",
   "liveProvider": false,
   "freeStages": { "stage1": 100, "stage2Internal": 100 },
