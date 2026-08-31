@@ -1,4 +1,4 @@
-const CACHE_NAME = "airscanner-pwa-r28";
+const CACHE_NAME = "airscanner-pwa-r29";
 const CACHE_PREFIX = "airscanner-pwa-";
 
 function canCache(request, url) {
@@ -21,7 +21,7 @@ async function cacheResponse(request, response) {
 }
 
 self.addEventListener("install", (event) => {
-  event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.add("./")).catch(() => undefined));
+  event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(["./", "./advanced-content.json"])).catch(() => undefined));
 });
 
 self.addEventListener("activate", (event) => {

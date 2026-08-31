@@ -1,5 +1,10 @@
 {
-  "buildId": "airscanner-0.6.1-r28-adsense-review-connected",
-  "sourceRevision": "45b71147a434a1626596ae508ad2965716183f3b",
-  "builtAt": "2026-08-31T10:01:16.4441831Z"
+  "app": "AirScanner",
+  "version": "0.7.0",
+  "buildId": "airscanner-0.7.0-r29-free-stage2-complete",
+  "sourceRevision": "c17e7451972647e0b2bb4cf5ddc9b927602718cd",
+  "mode": "public-free-service",
+  "liveProvider": false,
+  "freeStages": { "stage1": 100, "stage2Internal": 100 },
+  "externalGates": ["live provider", "affiliate approval", "Google account backend", "AdSense approval and certified CMP"]
 }
