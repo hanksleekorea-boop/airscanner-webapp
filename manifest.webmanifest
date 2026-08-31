@@ -4,7 +4,7 @@
   "short_name": "AirScanner",
   "description": "총비용과 이동 위험을 함께 비교하는 비예약 항공권 비교 서비스",
   "lang": "ko",
-  "start_url": "./?airscanner-pwa=r25",
+  "start_url": "./?airscanner-pwa=r26",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f5f3ed",
