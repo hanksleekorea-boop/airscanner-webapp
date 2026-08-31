@@ -2,7 +2,7 @@
   "app": "AirScanner development dashboard",
   "version": "0.7.0",
   "buildId": "airscanner-0.7.0-r29-free-stage2-complete-dashboard",
-  "sourceRevision": "e5af9f65c027e4c4b8bae6b82ed93beb0881d7f7",
+  "sourceRevision": "0f0074c5968d8e5a8f2767ab2418f796d987d094",
   "mode": "development-dashboard",
   "freeStages": { "stage1": 100, "stage2Internal": 100 },
   "contractTests": { "passed": 118, "total": 118 }
