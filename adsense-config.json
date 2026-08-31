@@ -1,0 +1,15 @@
+{
+  "version": "airscanner-adsense-config/v1",
+  "enabled": false,
+  "publisherId": null,
+  "siteApproved": false,
+  "reviewCodeEnabled": false,
+  "certifiedCmpReady": false,
+  "autoAds": { "enabled": false },
+  "units": {
+    "leaderboard": { "enabled": false, "slot": null, "format": "display" },
+    "content": { "enabled": false, "slot": null, "format": "display" },
+    "multiplex": { "enabled": false, "slot": null, "format": "multiplex" },
+    "footer": { "enabled": false, "slot": null, "format": "display" }
+  }
+}

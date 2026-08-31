@@ -1,4 +1,4 @@
-const CACHE_NAME = "airscanner-pwa-r26";
+const CACHE_NAME = "airscanner-pwa-r27";
 const CACHE_PREFIX = "airscanner-pwa-";
 
 function canCache(request, url) {
@@ -7,6 +7,7 @@ function canCache(request, url) {
   return !url.pathname.includes("/api/")
     && !url.pathname.endsWith("/account-config.json")
     && !url.pathname.endsWith("/affiliate-config.json")
+    && !url.pathname.endsWith("/adsense-config.json")
     && !url.pathname.endsWith("/build.json");
 }
 
