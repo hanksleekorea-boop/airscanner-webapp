@@ -1,4 +1,4 @@
-const CACHE_NAME = "airscanner-pwa-r29-final";
+const CACHE_NAME = "airscanner-pwa-r30-stage12-candidate";
 const CACHE_PREFIX = "airscanner-pwa-";
 
 function canCache(request, url) {
@@ -21,7 +21,14 @@ async function cacheResponse(request, response) {
 }
 
 self.addEventListener("install", (event) => {
-  event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(["./", "./advanced-content.json"])).catch(() => undefined));
+  event.waitUntil((async () => {
+    const response = await fetch("./precache-manifest.json", {cache:"no-store"});
+    if (!response.ok) throw new Error("Offline asset manifest unavailable");
+    const assets = await response.json();
+    if (!Array.isArray(assets) || !assets.length || assets.length > 100 || assets.some((path) => typeof path !== "string" || !/^\.\/assets\/[a-zA-Z0-9._-]+(?:\?v=[a-zA-Z0-9._-]+)?$/.test(path))) throw new Error("Invalid offline asset manifest");
+    const cache = await caches.open(CACHE_NAME);
+    await cache.addAll(["./", "./advanced-content.json", ...assets]);
+  })());
 });
 
 self.addEventListener("activate", (event) => {
@@ -43,5 +50,5 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  event.respondWith(caches.match(request).then((cached) => cached || fetch(request).then((response) => cacheResponse(request, response))));
+  event.respondWith(caches.match(request, {ignoreSearch:true}).then((cached) => cached || fetch(request).then((response) => cacheResponse(request, response))));
 });
