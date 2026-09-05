@@ -1,10 +1,9 @@
 {
-  "app": "AirScanner",
-  "version": "0.7.1",
-  "buildId": "airscanner-0.7.1-r30-stage12-candidate",
-  "sourceRevision": "bed1765814b41c80893a3bd3cc8e8fc269c01ce9",
-  "mode": "development-dashboard",
-  "liveProvider": false,
-  "freeStages": { "stage1": "implemented_pending_external_gates", "stage2": "implemented_pending_external_gates" },
-  "externalGates": ["live provider", "affiliate approval", "Google account backend", "AdSense approval and certified CMP", "Android device verification"]
+  "buildId": "airscanner-0.7.2-r33-workflow-safe",
+  "version": "0.7.2",
+  "builtAt": "2026-09-05T12:56:20.386Z",
+  "baseSourceRevision": "424e2d20c0ebcae59a8222354375819c5a76dc82",
+  "assetSha256": "cafa9b67f8c4003f12610ab5fcd816c6d73c34e351358070f0bc4a5c61360971",
+  "mode": "static-local-tools",
+  "externalServicesReady": false
 }

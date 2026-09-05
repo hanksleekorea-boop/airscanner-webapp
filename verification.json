@@ -1,0 +1,9 @@
+{
+  "schema": "airscanner-verification/v1",
+  "buildId": "airscanner-0.7.2-r33-workflow-safe",
+  "files": 22,
+  "passed": 151,
+  "failed": 0,
+  "finishedAt": "2026-09-05T12:54:40.920Z",
+  "scope": "자동 계약 검사 · 실사용·외부 개통·보안 인증을 대신하지 않음"
+}
