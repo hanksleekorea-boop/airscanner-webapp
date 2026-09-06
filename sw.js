@@ -1,4 +1,4 @@
-const CACHE_NAME = "airscanner-pwa-r33-workflow-safe";
+const CACHE_NAME = "airscanner-pwa-r33-fresh-evidence";
 const CACHE_PREFIX = "airscanner-pwa-";
 
 function canCache(request, url) {
@@ -8,7 +8,8 @@ function canCache(request, url) {
     && !url.pathname.endsWith("/account-config.json")
     && !url.pathname.endsWith("/affiliate-config.json")
     && !url.pathname.endsWith("/adsense-config.json")
-    && !url.pathname.endsWith("/build.json");
+    && !url.pathname.endsWith("/build.json")
+    && !url.pathname.endsWith("/verification.json");
 }
 
 async function cacheResponse(request, response) {
