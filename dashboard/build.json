@@ -1,9 +1,9 @@
 {
   "buildId": "airscanner-0.7.2-r33-workflow-safe",
   "version": "0.7.2",
-  "builtAt": "2026-09-06T03:36:11.413Z",
+  "builtAt": "2026-09-06T03:41:35.760Z",
   "baseSourceRevision": "424e2d20c0ebcae59a8222354375819c5a76dc82",
-  "assetSha256": "d98051f4290e556fb67c6f90c5ea3ca89583e674d8ddf1654e3e98595a01c1d2",
+  "assetSha256": "48d9840cb9a225a21600d34c052ac562dcf7555f2ba546d11d1a498cd6381715",
   "mode": "static-local-tools",
   "externalServicesReady": false
 }
